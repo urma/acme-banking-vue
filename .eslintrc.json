@@ -29,5 +29,8 @@
       "never",
       { "beforeStatementContinuationChars": "always" }
     ]
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
