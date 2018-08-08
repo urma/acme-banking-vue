@@ -1,4 +1,7 @@
 {
+  "ecmaFeatures": {
+    "modules": true
+  },
   "plugins": [
     "security",
     "vue"
@@ -29,5 +32,8 @@
       "never",
       { "beforeStatementContinuationChars": "always" }
     ]
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
