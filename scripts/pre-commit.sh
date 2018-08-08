@@ -1,3 +1,3 @@
 #!/bin/sh
 
-eslint $(pwd)
+eslint --no-color $(pwd)
